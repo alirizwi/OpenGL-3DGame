@@ -1,23 +1,25 @@
-Controls:
-Boat Movement ::
+# OpenGL 3D Game
+
+## Controls:
+### Boat Movement
 	-> left : turn left
 	-> right : turn right
 	-> up : move straight
 	-> down : move back
 	-> space bar : jump.
-Views ::
+### Views
 	-> 1 : follow-cam view
 	-> 2 : boat-view
 	-> 3 : top-view
 	-> 4 : tower-view
 	-> 5 : helicopter-view
 		-> Change position of cursor to view the world
-Cannon ::
+### Cannon
 	-> Mouse cursor movement to move the cannon
 	-> F : Throw fireball
 
 
-Available Views:
+## Available Views:
 
 -> Boat view: This is a view from the ship’s position where only a part of the world in front is
 visible. In other words, in this view, we see what the ship sees, as if we were the ship.
@@ -38,7 +40,7 @@ the scene.
 
 
 
-Game:
+## Game:
 
 The world consists of a large sea which has several enemies and objects present. Your boat
 must have a sail and a cannon that shoots fireballs. A booster that speeds up the boat for some
